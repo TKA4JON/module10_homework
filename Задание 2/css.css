@@ -1,0 +1,19 @@
+﻿h1 {
+  color: #4A752C;
+}
+
+.btn_wrapper {
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: #F0FFF0;
+  color: #4A752C;
+  border: 2px solid #4A752C;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_text {
+  margin-right: 10px;
+}

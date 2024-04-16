@@ -1,0 +1,55 @@
+﻿h1 {
+  color: #4A752C;
+}
+
+.request-wrapper {
+  display: flex;
+}
+
+.btn_wrapper {
+  display: flex;
+  margin: 5px 5px;
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: #F0FFF0;
+  color: #4A752C;
+  border: 2px solid #4A752C;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px 5px;
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: #F0FFF0;
+  color: #4A752C;
+  border: 2px solid #4A752C;
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  margin: 5px 5px;
+  overflow: scroll;
+  width: 550px;
+  background-color: #F0FFF0;
+  color: #4A752C;
+  font-size: 15px;
+  border: 2px solid #4A752C;
+}
+
+.window-text {
+  border-radius: 5px;
+  border: 2px solid #4A752C;
+  margin: 10px;
+  padding: 5px;
+}
+
+.sent {
+  align-self: flex-end;
+}
+
+.received {
+  align-self: flex-start;
+}
